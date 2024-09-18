@@ -45,6 +45,11 @@ install(FILES
   DESTINATION lib/KDSingleApplication
 )
 
+install(FILES
+  "${CMAKE_CURRENT_SOURCE_DIR}/bin/kdsingleapplication.dll"
+  DESTINATION bin
+)
+
 install(
   EXPORT KDSingleApplicationTargets
   DESTINATION share/KDSingleApplication
